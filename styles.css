@@ -99,9 +99,13 @@ img{
     width: 100%;
     border-radius: 10px;
 }
-
+#description{
+    padding-bottom: 1.5rem;
+}
 .prep-time{
     background-color: hsl(330, 100%, 98%);
+    padding: 0.5rem;
+    border-radius: 10px;
 }
 
 h1{
@@ -118,17 +122,19 @@ h2{
 
 h3{
     color: hsl(332, 51%, 32%);
+    padding-left: 1rem;
 }
 
 span{
     font-weight: 600;
 }
-
-.value{
-    color:hsl(14, 45%, 36%);
-    font-weight: 700;
+.prep{
+        padding-left: 1rem;
 }
-
+.ingre-items{
+    padding-left: 1rem;
+    font-weight: 400;
+}
 ul ,ol {
     padding-left: 0;
     list-style-position: inside;
@@ -136,17 +142,52 @@ ul ,ol {
 
 li{
     line-height: 2rem;
+    /* padding-left: 1rem; */
 }
 
 .ingredients li::marker{
     color:hsl(14, 45%, 36%);
+}
+.ingredients{
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
 }
 
 .instructions li::marker{
     color:hsl(14, 45%, 36%);
     font-weight: 600;
 }
-
+.instructions{
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+.nutrition-facts{
+    padding-top: 0.5rem;
+}
 .prep-time li::marker{
     color: hsl(332, 51%, 32%);
+}
+.prep-time ul{
+    padding-left: 1rem;
+    margin-top: 0.75rem;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+}
+tbody tr:not(:first-child){
+    border-top: 1px solid hsl(30, 18%, 87%);
+}
+tr{
+    line-height: 3rem;
+}
+.label{
+    padding-left: 1.5rem;
+}
+
+.value{
+    color:hsl(14, 45%, 36%);
+    font-weight: 700;
+    padding-left: 0;
 }
