@@ -147,6 +147,7 @@ li{
 
 .ingredients li::marker{
     color:hsl(14, 45%, 36%);
+    font-size: small;
 }
 .ingredients{
     padding-bottom: 0.5rem;
@@ -167,6 +168,7 @@ li{
 }
 .prep-time li::marker{
     color: hsl(332, 51%, 32%);
+    font-size: small;
 }
 .prep-time ul{
     padding-left: 1rem;
@@ -182,12 +184,14 @@ tbody tr:not(:first-child){
 tr{
     line-height: 3rem;
 }
-.label{
+strong{
+    font-weight: 700;
+}
+td{
     padding-left: 1.5rem;
 }
 
 .value{
     color:hsl(14, 45%, 36%);
-    font-weight: 700;
     padding-left: 0;
 }
