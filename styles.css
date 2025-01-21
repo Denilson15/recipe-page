@@ -177,6 +177,7 @@ li{
 table{
     border-collapse: collapse;
     width: 100%;
+    margin-top: 0.75rem;
 }
 tbody tr:not(:first-child){
     border-top: 1px solid hsl(30, 18%, 87%);
@@ -194,4 +195,5 @@ td{
 .value{
     color:hsl(14, 45%, 36%);
     padding-left: 0;
+    font-weight: 700;
 }
