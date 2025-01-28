@@ -26,11 +26,11 @@ The goal of this project was to create a recipe page that displays a recipe for 
 
 #### Desktop View
 
-![Recipe Page Desktop View](./docs/recipe_desktop.png)
+![Recipe Page Desktop View](./recipe_desktop.png)
 
 #### Mobile View
 
-![Recipe Page Mobile View](./docs/recipe_mobile.png)
+![Recipe Page Mobile View](./recipe_mobile.png)
 
 ### Links
 
