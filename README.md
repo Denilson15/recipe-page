@@ -1,77 +1,88 @@
-# Frontend Mentor - Recipe page solution
+# Frontend Mentor - Recipe Page Solution
 
-This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is my solution to the [Recipe Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-## Table of contents
+## Table of Contents
 
 - [Overview](#overview)
-  - [The challenge](#the-challenge)
+  - [The Challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
+- [My Process](#my-process)
+  - [Built With](#built-with)
+  - [What I Learned](#what-i-learned)
+  - [Continued Development](#continued-development)
+  - [Useful Resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
-In this project the goal was to create a simple mock webpage for a website that has different recipes. In this specfic page being an Omelette recipe. 
+
+### The Challenge
+
+The goal of this project was to create a recipe page that displays a recipe for an omelette. The challenge was to design a visually appealing and user-friendly layout that works well on both desktop and mobile devices.
+
 ### Screenshot
 
-![](/docs/recipe-webpage.png)
-
-
+![Recipe Page Screenshot](./docs/recipe-webpage.png)
 
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-The template provided the information so the first step was to add tags to the information and decide the appropriate tags for each part of the text file. Once that was complete I added styles to each tag.
+## My Process
 
-### Built with
+### Built With
+
 - Semantic HTML5 markup
 - CSS custom properties
 - Google Fonts
+- Media queries for responsive design
+- Developer tools for testing and debugging
 
-### What I learned
+### What I Learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+Working on this project helped me understand the importance of semantic HTML5 elements and how to use them effectively. Additionally, I gained more experience with CSS custom properties, responsive design using media queries, and using developer tools to test and debug my code.
 
-To see how you can add code snippets, see below:
+One key aspect I learned was how to use the `@media` rule to make the layout responsive. The `@media` rule allows you to apply different styles depending on the screen size, orientation, or other conditions. This ensures that the webpage looks good on both desktop and mobile devices.
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+Here's an example of how I used media queries to adjust the layout for different screen sizes:
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+/* Default styles for larger screens */
+.recipe-card {
+	background-color: hsl(0, 0%, 100%);
+	width: 50%;
+	margin: 10vh auto;
+	padding: 2rem;
+	border-radius: 10px;
+	font-size: 16px;
+	font-family: "Outfit", serif;
+	font-weight: 400;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 767px) {
+	.recipe-card {
+    	width: 100%;
+    	max-width: 100%;
+	}
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+Throughout the process, I spent a significant amount of time using developer tools to inspect elements, test styles, and debug issues. This was crucial in ensuring the page worked correctly on various screen sizes.
 
-### Continued development
+### Continued Development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+In future projects, I want to focus more on:
+- Advanced CSS techniques
+- JavaScript interactivity
+- Enhancing accessibility
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+### Useful Resources
 
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [The Markdown Guide](https://www.markdownguide.org/) - This guide helped me understand markdown better and structure my README file more effectively.
+- [CSS-Tricks](https://css-tricks.com/) - An amazing resource for CSS techniques and best practices.
 
 ## Author
 
@@ -79,6 +90,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I’d like to thank the Frontend Mentor community for their support and feedback throughout this project. Their guidance and insights were invaluable.
