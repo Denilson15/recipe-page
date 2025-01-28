@@ -6,7 +6,7 @@ This is my solution to the [Recipe Page Challenge on Frontend Mentor](https://ww
 
 - [Overview](#overview)
   - [The Challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My Process](#my-process)
   - [Built With](#built-with)
@@ -22,9 +22,15 @@ This is my solution to the [Recipe Page Challenge on Frontend Mentor](https://ww
 
 The goal of this project was to create a recipe page that displays a recipe for an omelette. The challenge was to design a visually appealing and user-friendly layout that works well on both desktop and mobile devices.
 
-### Screenshot
+### Screenshots
 
-![Recipe Page Screenshot](./docs/recipe-webpage.png)
+#### Desktop View
+
+![Recipe Page Desktop View](./docs/recipe_desktop.png)
+
+#### Mobile View
+
+![Recipe Page Mobile View](./docs/recipe_mobile.png)
 
 ### Links
 
