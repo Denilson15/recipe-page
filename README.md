@@ -1,99 +1,51 @@
-# Frontend Mentor - Recipe Page Solution
+# Recipe Page
 
-This is my solution to the [Recipe Page Challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a custom-built recipe page developed from scratch using **HTML** and **CSS**. While the project idea was inspired by Frontend Mentor's Recipe Page challenge, the entire design and codebase were independently created to practice building responsive web components and mastering layout techniques.
 
-## Table of Contents
+> 💡 No AI was used in the development of this project. AI tools were utilized solely for documentation purposes, such as generating this README. I believe in building a strong foundation in programming while also learning how to effectively use AI tools as part of a modern developer workflow.
 
-- [Overview](#overview)
-  - [The Challenge](#the-challenge)
-  - [Screenshots](#screenshots)
-  - [Links](#links)
-- [My Process](#my-process)
-  - [Built With](#built-with)
-  - [What I Learned](#what-i-learned)
-  - [Continued Development](#continued-development)
-  - [Useful Resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+## ✨ Overview
 
-## Overview
+Live Demo: [https://denilson15.github.io/recipe-page/](https://denilson15.github.io/recipe-page/)
 
-### The Challenge
+This project showcases a functional recipe page that includes:
 
-The goal of this project was to create a recipe page that displays a recipe for an omelette. The challenge was to design a visually appealing and user-friendly layout that works well on both desktop and mobile devices.
+- A featured image of the dish
+- A recipe title and description
+- Preparation time, cooking time, and servings information
+- A list of ingredients and step-by-step instructions
+- Responsive design for optimal viewing on different devices
 
-### Screenshots
+## ⚙️ How It Works
 
-#### Desktop View
+- The HTML structure defines the layout of the recipe page, including sections for the image, title, description, preparation details, ingredients, and instructions.
+- CSS is used to style the page, including layout, colors, typography, and spacing, ensuring a clean and professional appearance.
+- The project is structured to be easily expandable for future development.
 
-![Recipe Page Desktop View](./recipe_desktop.png)
+## 🛠️ Personalization
 
-#### Mobile View
+Although the initial concept was provided by Frontend Mentor, the following customizations were implemented:
 
-![Recipe Page Mobile View](./recipe_mobile.png)
+- Designed and styled the layout from scratch using CSS
+- Implemented responsive design techniques to ensure compatibility across devices
+- Structured the HTML for semantic clarity and accessibility
 
-### Links
+## 🚧 Planned Updates
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Add interactive elements such as a print button or share functionality
+- Implement dark mode with CSS variables
+- Enhance layout for tablet/desktop view with additional styling
 
-## My Process
+## 🗂️ File Structure (basic)
 
-### Built With
+- `index.html` – Main structure of the webpage
+- `styles.css` – Styling for layout and design
+- `assets/` – Folder containing image assets used in the project
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Google Fonts
-- Media queries for responsive design
-- Developer tools for testing and debugging
+## ⚙️ Getting Started
 
-### What I Learned
+To run the project locally:
 
-Working on this project helped me understand the importance of semantic HTML5 elements and how to use them effectively. Additionally, I gained more experience with CSS custom properties, responsive design using media queries, and using developer tools to test and debug my code.
-
-One key aspect I learned was how to use the `@media` rule to make the layout responsive. The `@media` rule allows you to apply different styles depending on the screen size, orientation, or other conditions. This ensures that the webpage looks good on both desktop and mobile devices.
-
-Here's an example of how I used media queries to adjust the layout for different screen sizes:
-
-```css
-/* Default styles for larger screens */
-.recipe-card {
-	background-color: hsl(0, 0%, 100%);
-	width: 50%;
-	margin: 10vh auto;
-	padding: 2rem;
-	border-radius: 10px;
-	font-size: 16px;
-	font-family: "Outfit", serif;
-	font-weight: 400;
-}
-
-/* Styles for smaller screens */
-@media (max-width: 767px) {
-	.recipe-card {
-    	width: 100%;
-    	max-width: 100%;
-	}
-}
-```
-
-Throughout the process, I spent a significant amount of time using developer tools to inspect elements, test styles, and debug issues. This was crucial in ensuring the page worked correctly on various screen sizes.
-
-### Continued Development
-
-In future projects, I want to focus more on:
-- Advanced CSS techniques
-- JavaScript interactivity
-- Enhancing accessibility
-
-### Useful Resources
-
-- [The Markdown Guide](https://www.markdownguide.org/) - This guide helped me understand markdown better and structure my README file more effectively.
-- [CSS-Tricks](https://css-tricks.com/) - An amazing resource for CSS techniques and best practices.
-
-## Author
-
-- Frontend Mentor - [@Denilson15](https://www.frontendmentor.io/profile/Denilson15)
-
-## Acknowledgments
-
-I’d like to thank the Frontend Mentor community for their support and feedback throughout this project. Their guidance and insights were invaluable.
+```bash
+git clone https://github.com/Denilson15/recipe-page.git
+cd recipe-page
